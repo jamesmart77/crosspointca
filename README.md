@@ -1,1 +1,1 @@
-# crosspointca
+# CrossPoint Christian Academy
