@@ -1,0 +1,17 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    min-width: 575px;
+}
+
+.app-container {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    display: flex;
+    flex: 1 0 auto;
+    flex-direction: column;
+}
