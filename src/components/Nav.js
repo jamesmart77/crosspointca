@@ -13,7 +13,7 @@ export default function Nav() {
       id="mobile-nav"
       menuIcon={<Icon>menu</Icon>}
       options={{
-        draggable: true,
+        draggable: false,
         edge: 'left',
         inDuration: 250,
         onCloseEnd: null,
@@ -41,15 +41,19 @@ export default function Nav() {
           onOpenStart: null,
           outDuration: 250
         }}
-        trigger={<span>About Us{' '}<Icon right>arrow_drop_down</Icon></span>}
+        trigger={
+          <span className="dropdown-option">
+            About Us
+            <Icon right>arrow_drop_down</Icon>
+          </span>}
       >
-        <Link to="/">
+        <Link to="/" className="link">
           Mission
         </Link>
-        <Link to="/">
+        <Link to="/" className="link">
           Vision
         </Link>
-        <Link to="/">
+        <Link to="/" className="link">
           Our Story
         </Link>
       </Dropdown>
@@ -70,19 +74,23 @@ export default function Nav() {
           onOpenStart: null,
           outDuration: 250
         }}
-        trigger={<span>Resources{' '}<Icon right>arrow_drop_down</Icon></span>}
+        trigger={
+          <span className="dropdown-option">
+            Resources
+            <Icon right>arrow_drop_down</Icon>
+          </span>}
       >
-        <Link to="/">
+        <Link to="/" className="link">
           Statement of Faith
         </Link>
-        <Link to="/">
+        <Link to="/" className="link">
           Enrollment
         </Link>
-        <Link to="/">
+        <Link to="/" className="link">
           University Model
         </Link>
       </Dropdown>
-      <NavItem href="/">
+      <NavItem href="/" className="contact-item">
         Contact Us
       </NavItem>
     </Navbar>

@@ -1,3 +1,4 @@
+@import './colors';
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -14,4 +15,9 @@ main {
     display: flex;
     flex: 1 0 auto;
     flex-direction: column;
+}
+
+.link {
+    color: $green !important;
+    font-weight: 400 !important;
 }
