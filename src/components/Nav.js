@@ -47,13 +47,13 @@ export default function Nav() {
             <Icon right>arrow_drop_down</Icon>
           </span>}
       >
-        <Link to="/" className="link">
+        <Link to="/" className="link resource-item">
           Mission
         </Link>
-        <Link to="/" className="link">
+        <Link to="/" className="link resource-item">
           Vision
         </Link>
-        <Link to="/" className="link">
+        <Link to="/" className="link resource-item">
           Our Story
         </Link>
       </Dropdown>
@@ -80,13 +80,13 @@ export default function Nav() {
             <Icon right>arrow_drop_down</Icon>
           </span>}
       >
-        <Link to="/" className="link">
+        <Link to="/" className="link resource-item">
           Statement of Faith
         </Link>
-        <Link to="/" className="link">
+        <Link to="/" className="link resource-item">
           Enrollment
         </Link>
-        <Link to="/" className="link">
+        <Link to="/" className="link resource-item">
           University Model
         </Link>
       </Dropdown>

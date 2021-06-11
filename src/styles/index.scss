@@ -21,3 +21,15 @@ main {
     color: $green !important;
     font-weight: 400 !important;
 }
+
+.primary-btn {
+    background-color: $green !important;
+    color: white !important;
+    transition: all 0.3s;
+
+    &:hover, &:focus, &:active {
+        background-color: $sage !important;
+        color: $green !important;
+        transform: scale(1.05);
+    }
+}
