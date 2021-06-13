@@ -1,6 +1,7 @@
 @import './colors';
 
 body {
+    background-color: $grey5;
     font-family: 'Roboto', sans-serif;
     min-width: 575px;
 }
@@ -20,16 +21,38 @@ main {
 .link {
     color: $green !important;
     font-weight: 400 !important;
+
+    &.secondary {
+        color: white !important;
+    }
 }
 
 .primary-btn {
     background-color: $green !important;
+    border-radius: 0.25rem;
+    box-shadow: none;
     color: white !important;
     transition: all 0.3s;
 
     &:hover, &:focus, &:active {
         background-color: $sage !important;
-        color: $green !important;
+        color: white !important;
+        transform: scale(1.05);
+    }
+}
+
+.secondary-btn {
+    background-color: white;
+    border: 1px solid $green !important;
+    border-radius: 0.25rem;
+    box-shadow: none;
+    color: $green !important;
+    transition: all 0.3s;
+
+    &:hover, &:focus, &:active {
+        background-color: $sage !important;
+        border-color: $sage !important;
+        color: white !important;
         transform: scale(1.05);
     }
 }

@@ -29,27 +29,36 @@ export default function Landing() {
           </div>
         </Fade>
       </div>
-      <Row>
-        <Fade direction="left" cascade triggerOnce>
-          <Col l={4} s={10} offset="s1">
+      <Row className="card-row">
+          <Col l={4} s={10} offset="s1" className="card-col">
             <Card 
               title="Mission"
               description="Something coming!"
             />
           </Col>
-          <Col l={4} s={10} offset="s1">
+          <Col l={4} s={10} offset="s1" className="card-col">
             <Card 
               title="Vision"
               description="Something coming!"
             />
           </Col>
-          <Col l={4} s={10} offset="s1">
+          <Col l={4} s={10} offset="s1" className="card-col">
             <Card 
-              title="Admissions"
-              description="Something coming!"
+              title="Enrollment"
+              description="We are looking to open the school for Fall 2022. Interested in learning more?"
+              action={
+                <Button 
+                  className="secondary-btn action-btn"
+                  href="mailto:crosspointchristianacademy@gmail.com"
+                  node="a"
+                  waves="light"
+                >
+                  Connect With Us
+                </Button>
+              }
             />
           </Col>
-        </Fade>
+        {/* </Fade> */}
       </Row>
     </div>
   );

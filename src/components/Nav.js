@@ -47,12 +47,9 @@ export default function Nav() {
             <Icon right>arrow_drop_down</Icon>
           </span>}
       >
-        <Link to="/" className="link resource-item">
-          Mission
-        </Link>
-        <Link to="/" className="link resource-item">
-          Vision
-        </Link>
+        <a href="/MissionVision.pdf" rel="noreferrer noopener" className="link resource-item">
+          Mission & Vision
+        </a>
         <Link to="/" className="link resource-item">
           Our Story
         </Link>
@@ -90,7 +87,10 @@ export default function Nav() {
           University Model
         </Link>
       </Dropdown>
-      <NavItem href="/" className="contact-item">
+      <NavItem
+        href="mailto:crosspointchristianacademy@gmail.com"
+        className="contact-item"
+      >
         Contact Us
       </NavItem>
     </Navbar>

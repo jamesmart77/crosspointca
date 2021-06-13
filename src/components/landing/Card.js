@@ -15,6 +15,14 @@ export default function Card({title, description, action}) {
           <p>{description}</p>
         </Col>
       </Row>
+
+      {action && (
+        <Row>
+          <Col s={10} offset="s1" className="action-col">
+            {action}
+          </Col>
+        </Row>
+      )}
     </div>
   );
 }

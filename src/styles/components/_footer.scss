@@ -1,0 +1,20 @@
+@import '../colors';
+
+.footer {
+    &-container {
+        background-color: darken($sage, 25%);
+        margin-top: 5rem;
+    }
+
+    &-copyright {
+        background-color: $grey2 !important;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    
+}
+
+@media only screen and (max-width: 700px) {
+    
+}
