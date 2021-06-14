@@ -19,7 +19,7 @@ main {
 }
 
 .link {
-    color: $green !important;
+    color: $blue !important;
     font-weight: 400 !important;
 
     &.secondary {
@@ -28,7 +28,7 @@ main {
 }
 
 .primary-btn {
-    background-color: $green !important;
+    background-color: $blue !important;
     border-radius: 0.25rem;
     box-shadow: none;
     color: white !important;
@@ -43,10 +43,10 @@ main {
 
 .secondary-btn {
     background-color: white;
-    border: 1px solid $green !important;
+    border: 1px solid $blue !important;
     border-radius: 0.25rem;
     box-shadow: none;
-    color: $green !important;
+    color: $blue !important;
     transition: all 0.3s;
 
     &:hover, &:focus, &:active {
@@ -54,5 +54,15 @@ main {
         border-color: $sage !important;
         color: white !important;
         transform: scale(1.05);
+    }
+}
+
+.Toastify__toast--info {
+    background-color: $blue !important;
+    margin-bottom: 0 !important;
+    
+    .Toastify__toast-body {
+        background-color: $blue !important;
+        color: white;
     }
 }
