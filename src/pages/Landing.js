@@ -39,7 +39,7 @@ export default function Landing() {
               action={
                 <Button 
                   className="secondary-btn action-btn"
-                  href="mailto:crosspointchristianacademy@gmail.com"
+                  href="/MissionVision.pdf"
                   node="a"
                   waves="light"
                 >
@@ -74,7 +74,7 @@ export default function Landing() {
               action={
                 <Button 
                   className="secondary-btn action-btn"
-                  href="/MissionVision.pdf"
+                  href="mailto:crosspointchristianacademy@gmail.com"
                   node="a"
                   waves="light"
                 >

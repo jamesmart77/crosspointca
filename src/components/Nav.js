@@ -87,12 +87,12 @@ export default function Nav() {
         <Link to="/" className="link resource-item">
           Enrollment
         </Link>
-        <Link to="/UniversityModelSchool.pdf" className="link resource-item">
+        <a href="/UniversityModelSchool.pdf" rel="noreferrer noopener" className="link resource-link">
           What is a University Model School?
-        </Link>
-        <Link to="/FAQs.pdf" className="link resource-item">
+        </a>
+        <a href="/FAQs.pdf" rel="noreferrer noopener" className="link resource-link">
           FAQs
-        </Link>
+        </a>
       </Dropdown>
       <NavItem
         href="mailto:crosspointchristianacademy@gmail.com"
