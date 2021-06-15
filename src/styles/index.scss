@@ -35,7 +35,7 @@ main {
     transition: all 0.3s;
 
     &:hover, &:focus, &:active {
-        background-color: $sage !important;
+        background-color: $salmon !important;
         color: white !important;
         transform: scale(1.05);
     }
@@ -50,8 +50,8 @@ main {
     transition: all 0.3s;
 
     &:hover, &:focus, &:active {
-        background-color: $sage !important;
-        border-color: $sage !important;
+        background-color: $salmon !important;
+        border-color: $salmon !important;
         color: white !important;
         transform: scale(1.05);
     }
@@ -59,7 +59,7 @@ main {
 
 .Toastify__toast--info {
     background-color: $blue !important;
-    margin-bottom: 0 !important;
+    margin: 3.5rem auto 0 !important;
     
     .Toastify__toast-body {
         background-color: $blue !important;

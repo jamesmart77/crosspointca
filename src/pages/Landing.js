@@ -33,23 +33,48 @@ export default function Landing() {
           <Col l={4} s={10} offset="s1" className="card-col">
             <Card 
               title="Mission"
-              description="Something coming!"
+              description="Partner with parents to help provide a quality eduction producing wholesome, 
+              competent people of character who make a positive difference for Christ in the next generation."
+              descriptionStyle={{height: "7rem"}}
+              action={
+                <Button 
+                  className="secondary-btn action-btn"
+                  href="mailto:crosspointchristianacademy@gmail.com"
+                  node="a"
+                  waves="light"
+                >
+                  Learn More
+                </Button>
+              }
             />
           </Col>
           <Col l={4} s={10} offset="s1" className="card-col">
             <Card 
               title="Vision"
-              description="Something coming!"
+              description="Provide a University Model School®, incorporating the most beneficial aspects of public 
+              schooling with the pivotal components of homeschooling, with lessons and grading by qualified educators 
+              in a hybrid schedule between school and home."
+              action={
+                <Button 
+                  className="secondary-btn action-btn"
+                  href="/MissionVision.pdf"
+                  node="a"
+                  waves="light"
+                >
+                  Learn More
+                </Button>
+              }
             />
           </Col>
           <Col l={4} s={10} offset="s1" className="card-col">
             <Card 
               title="Enrollment"
               description="We are looking to open the school for Fall 2022. Interested in learning more?"
+              descriptionStyle={{height: "7rem"}}
               action={
                 <Button 
                   className="secondary-btn action-btn"
-                  href="mailto:crosspointchristianacademy@gmail.com"
+                  href="/MissionVision.pdf"
                   node="a"
                   waves="light"
                 >

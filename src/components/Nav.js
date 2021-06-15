@@ -1,10 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Navbar, NavItem, Icon, Dropdown } from 'react-materialize';
+import logo from '../images/logo.png';
 import '../styles/components/_nav.scss';
 
 export default function Nav() {
-  const brand = <Link to="/">CrossPoint Christian Academy</Link>;
+  const brand = <Link to="/">
+    <img src={logo} alt="logo" />
+    CrossPoint Christian Academy
+  </Link>;
 
   return (
     <Navbar
@@ -84,7 +88,7 @@ export default function Nav() {
           Enrollment
         </Link>
         <Link to="/" className="link resource-item">
-          University Model
+          What is a University Model School?
         </Link>
       </Dropdown>
       <NavItem

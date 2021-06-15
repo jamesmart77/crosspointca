@@ -5,7 +5,13 @@ nav {
     z-index: 1;
     
     .brand-logo {
+        align-items: center;
+        display: flex;
         margin-left: 1rem;
+
+        img {
+            height: 4.75rem;
+        }
     }
 
     .dropdown-option {
@@ -22,7 +28,7 @@ nav {
 @media only screen and (max-width: 992px) {
     nav {
         .brand-logo {
-            font-size: 1.75rem;
+            font-size: 1.5rem;
         }
 
     }
@@ -49,7 +55,10 @@ nav {
     nav {
         .brand-logo {
             left: 46%;
-            font-size: 1.55rem;
+
+            img {
+                display: none;
+            }
         }
     }
 }

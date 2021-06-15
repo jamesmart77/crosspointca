@@ -2,7 +2,7 @@ import React from 'react';
 import { Row, Col } from 'react-materialize';
 import '../../styles/components/landing/_card.scss';
 
-export default function Card({title, description, action}) {
+export default function Card({title, description, action, descriptionStyle }) {
   return (
     <div className="card-container">
       <Row>
@@ -12,7 +12,7 @@ export default function Card({title, description, action}) {
       </Row>
       <Row>
         <Col s={10} offset="s1">
-          <p>{description}</p>
+          <p style={descriptionStyle}>{description}</p>
         </Col>
       </Row>
 

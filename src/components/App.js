@@ -8,11 +8,11 @@ import { ToastContainer, toast } from 'react-toastify';
 export default function App() {
 
   useEffect(() => {
-    toast.info(`We are still under construction so please pardon our appearance 🤓 
-    Send us an email if you would like to schedule an information session.`, {
-      position: "bottom-right",
-      autoClose: 10000,
-      hideProgressBar: true,
+    toast.info(`Pardon us, we are still under construction 🤓 Click "Contact Us" to send 
+    us an email to schedule an information session or for any questions.`, {
+      position: "top-right",
+      autoClose: 15000,
+      hideProgressBar: false,
       closeOnClick: true,
       pauseOnHover: true,
       });
