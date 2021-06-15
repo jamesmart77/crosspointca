@@ -37,10 +37,14 @@ export default function Footer() {
                 </a>
               </li>
               <li>
-                <a className="grey-text text-lighten-3" href="#!">FAQs</a>
+                <a href="/FAQs.pdf" rel="noreferrer noopener" className="link secondary">
+                  FAQs
+                </a>
               </li>
               <li>
-                <a className="grey-text text-lighten-3" href="#!">UMS Info</a>
+                <a href="/UniversityModelSchool.pdf" rel="noreferrer noopener" className="link secondary">
+                  University Model School Info
+                </a>
               </li>
             </ul>
           </div>
