@@ -94,12 +94,10 @@ export default function Nav() {
           FAQs
         </a>
       </Dropdown>
-      <NavItem
-        href="mailto:crosspointchristianacademy@gmail.com"
-        className="contact-item"
-        title="Not seeing email? Look in footer section"
-      >
-        Contact Us
+      <NavItem>
+        <Link to="/contactUs">
+          Contact Us
+        </Link>
       </NavItem>
     </Navbar>
   )

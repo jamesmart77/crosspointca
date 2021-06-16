@@ -3,11 +3,20 @@
 .card-container {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: space-between;
     background-color: white;
     border: 1px solid $grey4;
     border-radius: 0.25rem;
     height: 100%;
+
+    .icon-wrapper {
+        i {
+            border: 1px solid $salmon;
+            border-radius: 50%;
+            color: $salmon;
+            padding: 0.5rem;
+        }
+    }
     
     .action {
         &-col {

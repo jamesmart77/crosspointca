@@ -1,0 +1,46 @@
+@import '../colors';
+
+.contact-container {
+    background-color: white;
+    transition: all 0.5s;
+
+    .upper-section {
+        background-color: $grey5;
+        padding: 4.5rem 0 8rem;
+        
+        .banner-row {
+            .header-text {
+                line-height: 1.75rem !important;
+
+                a {
+                    font-weight: 500 !important;
+                }
+            }
+
+            .contact-img {
+                height: 15rem;
+            }
+        }
+    }
+
+    .lower-section {
+        bottom: 6rem;
+        position: relative;
+
+        .freebirdFormviewerViewNavigationPasswordWarning {
+            display: none !important;
+        }
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .contact-container {
+        .upper-section {
+            text-align: center;
+        }
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    
+}

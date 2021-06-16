@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom'; 
 import Landing from '../pages/Landing';
+import Contact from '../pages/Contact';
 import Nav from '../components/Nav';
 import Footer from '../components/Footer';
 import { ToastContainer, toast } from 'react-toastify';
@@ -24,7 +25,8 @@ export default function App() {
         <main>
           <Nav />
           <Switch>
-            <Route path='/' component={Landing} />
+            <Route exact path='/' component={Landing} />
+            <Route exact path='/contactUs' component={Contact} />
           </Switch>
           <Footer />
         </main>
