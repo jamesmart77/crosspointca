@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Navbar, NavItem, Icon, Dropdown } from 'react-materialize';
+import { Navbar, Icon, Dropdown } from 'react-materialize';
 import logo from '../images/logo.png';
 import '../styles/components/_nav.scss';
 
@@ -94,11 +94,9 @@ export default function Nav() {
           FAQs
         </a>
       </Dropdown>
-      <NavItem>
-        <Link to="/contactUs">
-          Contact Us
-        </Link>
-      </NavItem>
+      <Link to="/contactUs" className="contact-link">
+        Contact Us
+      </Link>
     </Navbar>
   )
 }

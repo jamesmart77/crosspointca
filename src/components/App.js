@@ -5,6 +5,8 @@ import Contact from '../pages/Contact';
 import Nav from '../components/Nav';
 import Footer from '../components/Footer';
 import { ToastContainer, toast } from 'react-toastify';
+import Analytics from 'analytics'
+import googleAnalytics from '@analytics/google-analytics'
 
 export default function App() {
 
@@ -18,6 +20,18 @@ export default function App() {
       pauseOnHover: true,
       });
   })
+
+  const analytics = Analytics({
+    app: 'crosspoint-ca',
+    plugins: [
+      googleAnalytics({
+        trackingId: 'UA-199622297-1'
+      })
+    ]
+  })
+  
+  /* Track a page view */
+  analytics.page()
 
   return (
     <BrowserRouter>

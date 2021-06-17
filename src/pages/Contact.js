@@ -46,9 +46,9 @@ export default function Contact() {
                     src="https://docs.google.com/forms/d/e/1FAIpQLSdBVuExzGvtuCx7I6Z-5pSQ98uH4zTFbSJ-09kGo76CQELO5g/viewform?embedded=true" 
                     width="100%" 
                     height="750" 
-                    frameborder="0" 
-                    marginheight="0" 
-                    marginwidth="0"
+                    frameBorder="0" 
+                    marginHeight="0" 
+                    marginWidth="0"
                   >
                     Loading…
                   </iframe>
