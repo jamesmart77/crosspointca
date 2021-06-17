@@ -21,6 +21,7 @@
     "materialize-css": "^1.0.0",
     "node-sass": "^4.14.1",
     "react-awesome-reveal": "^3.8.1",
+    "react-cookie-consent": "^6.2.4",
     "react-materialize": "^3.9.8",
     "react-toastify": "^7.0.4"
   },

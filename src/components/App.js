@@ -7,6 +7,7 @@ import Footer from '../components/Footer';
 import { ToastContainer, toast } from 'react-toastify';
 import Analytics from 'analytics'
 import googleAnalytics from '@analytics/google-analytics'
+import CookieConsent from "react-cookie-consent";
 
 export default function App() {
 
@@ -46,6 +47,16 @@ export default function App() {
         </main>
         
         <ToastContainer />
+        <CookieConsent
+          location="bottom"
+          buttonText="OK"
+          cookieName="cca-cookie"
+          style={{ background: "#2B373B" }}
+          buttonStyle={{ backgroundColor: "#0D5673", color: "#fff", fontSize: "13px", minWidth: "64px" }}
+          expires={150}
+        >
+          We use cookies and other tracking technologies to improve your browsing experience and to analyze our website traffic.
+        </CookieConsent>
       </div> 
     </BrowserRouter>
   );
