@@ -39,7 +39,7 @@ export default function Contact() {
         <Container>
           <Row>
             <Col s={12} className="center-align">
-              <Fade bottom duration={2000}>
+              <Fade bottom duration={500}>
                 <div className="form-wrapper">
                   <iframe 
                     title="crosspoint-christain-academy-contact-form"

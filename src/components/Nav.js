@@ -54,9 +54,9 @@ export default function Nav() {
         <a href="/MissionVision.pdf" rel="noreferrer noopener" className="link resource-item">
           Mission & Vision
         </a>
-        <Link to="/" className="link resource-item">
-          Our Story
-        </Link>
+        <span to="/" className="link disabled resource-item" title="Coming soon!">
+          Our Story <small>(coming soon)</small>
+        </span>
       </Dropdown>
       <Dropdown
         id="resources-id"
@@ -81,16 +81,16 @@ export default function Nav() {
             <Icon right>arrow_drop_down</Icon>
           </span>}
       >
-        <Link to="/" className="link resource-item">
-          Statement of Faith
-        </Link>
-        <Link to="/" className="link resource-item">
-          Enrollment
-        </Link>
-        <a href="/UniversityModelSchool.pdf" rel="noreferrer noopener" className="link resource-link">
+        <span to="/" className="link disabled resource-item">
+          Statement of Faith <small>(coming soon)</small>
+        </span>
+        <span to="/" className="link disabled resource-item">
+          Enrollment <small>(coming soon)</small>
+        </span>
+        <a href="/UniversityModelSchool.pdf" target="_blank" rel="noreferrer noopener" className="link resource-link">
           What is a University Model School?
         </a>
-        <a href="/FAQs.pdf" rel="noreferrer noopener" className="link resource-link">
+        <a href="/FAQs.pdf" target="_blank" rel="noreferrer noopener" className="link resource-link">
           FAQs
         </a>
       </Dropdown>

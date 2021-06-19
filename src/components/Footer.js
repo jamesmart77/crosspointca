@@ -1,5 +1,6 @@
 import React from 'react';
 // import { Link } from 'react-router-dom';
+import ReactTooltip from 'react-tooltip';
 import logo from '../images/logo_w_words.png';
 import '../styles/components/_footer.scss';
 
@@ -32,17 +33,17 @@ export default function Footer() {
             <h5 className="white-text">Quick Links</h5>
             <ul>
               <li>
-                <a href="/MissionVision.pdf" rel="noreferrer noopener" className="link secondary">
+                <a href="/MissionVision.pdf" rel="noreferrer noopener" target="_blank" className="link secondary">
                   Mission & Vision
                 </a>
               </li>
               <li>
-                <a href="/FAQs.pdf" rel="noreferrer noopener" className="link secondary">
+                <a href="/FAQs.pdf" rel="noreferrer noopener" target="_blank" className="link secondary">
                   FAQs
                 </a>
               </li>
               <li>
-                <a href="/UniversityModelSchool.pdf" rel="noreferrer noopener" className="link secondary">
+                <a href="/UniversityModelSchool.pdf" target="_blank" rel="noreferrer noopener" className="link secondary">
                   University Model School Info
                 </a>
               </li>
@@ -53,7 +54,8 @@ export default function Footer() {
       <div className="footer-copyright">
         <div className="container">
           <span>&copy; {year} crosspointca.com</span>
-          <a className="grey-text text-lighten-4 right" href="#!">Donate to Fundraising</a>
+          <ReactTooltip id="donate-tip">Thanks for considering! We're still working on getting this setup, but it should be soon!</ReactTooltip>
+          <span data-tip data-for="donate-tip" className="link disabled grey-text text-lighten-4 right">Donate to Fundraising</span>
         </div>
       </div>
     </footer>

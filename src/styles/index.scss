@@ -25,6 +25,10 @@ main {
     &.secondary {
         color: white !important;
     }
+
+    &.disabled {
+        cursor: not-allowed;
+    }
 }
 
 .primary-btn {
