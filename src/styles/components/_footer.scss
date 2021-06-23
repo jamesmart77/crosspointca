@@ -4,6 +4,16 @@
     &-container {
         background-color: darken($sage, 25%);
         margin-top: 5rem;
+
+        .social {
+            &-wrapper {
+                display: flex;
+            }
+
+            &-link {
+                margin: 1rem 0.5rem 0 0;
+            }
+        }
     }
 
     &-copyright {

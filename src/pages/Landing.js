@@ -17,8 +17,10 @@ export default function Landing() {
           triggerOnce
         >
           <div>
-            <h2>Partnering with Parents</h2>
-            <h5>Train up your children in the way he should go...</h5>
+            <h2 className="header">Partnering with Parents</h2>
+            <h6 className="sub-header">
+              Train up a child in the way he should go; even when he is old he will not depart from it. <small>Pr 22:6</small>
+            </h6>
             <Link to="/contactUs">
               <Button className="primary-btn connect-btn" waves="light">
                 Connect With Us
@@ -31,8 +33,9 @@ export default function Landing() {
         <Col l={4} s={10} offset="s1" className="card-col">
           <Card 
             title="Mission"
-            description="Partner with parents to help provide a quality eduction producing wholesome, 
-            competent people of character who make a positive difference for Christ in the next generation."
+            description="Combine attributes of traditional schooling and homeschooling to create a single model. 
+              The result is a quality, cost-effective education that gives parents more time for imparting their 
+              own faith and values to their children."
             descriptionStyle={{height: "7rem"}}
             iconType="map"
             action={
@@ -50,9 +53,8 @@ export default function Landing() {
         <Col l={4} s={10} offset="s1" className="card-col">
           <Card 
             title="Vision"
-            description="Provide a University Model School®, incorporating the most beneficial aspects of public 
-            schooling with the pivotal components of homeschooling, with lessons and grading by qualified educators 
-            in a hybrid schedule between school and home."
+            description="That our children will be mature followers of Jesus Christ who exhibit a Christ-like 
+              character, passionately pursue learning, to the glory of God."
             iconType="local_library"
             action={
               <Button 

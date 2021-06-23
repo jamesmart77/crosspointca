@@ -1,7 +1,8 @@
 import React from 'react';
-// import { Link } from 'react-router-dom';
 import ReactTooltip from 'react-tooltip';
 import logo from '../images/logo_w_words.png';
+import facebook from '../images/facebook.svg';
+import instagram from '../images/instagram.svg';
 import '../styles/components/_footer.scss';
 
 export default function Footer() {
@@ -45,6 +46,24 @@ export default function Footer() {
               <li>
                 <a href="/UniversityModelSchool.pdf" target="_blank" rel="noreferrer noopener" className="link secondary">
                   University Model School Info
+                </a>
+              </li>
+              <li className="social-wrapper">
+                <a 
+                  href="https://www.facebook.com/CrossPointCA" 
+                  target="_blank" 
+                  rel="noreferrer noopener" 
+                  className="social-link"
+                >
+                  <img src={facebook} alt="facebook circle" className="social-icon" />
+                </a>
+                <a 
+                  href="https://www.instagram.com/crosspointchristianacademy" 
+                  target="_blank" 
+                  rel="noreferrer noopener" 
+                  className="social-link"
+                >
+                  <img src={instagram} alt="instagram circle" className="social-icon" />
                 </a>
               </li>
             </ul>

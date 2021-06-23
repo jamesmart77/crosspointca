@@ -81,18 +81,18 @@ export default function Nav() {
             <Icon right>arrow_drop_down</Icon>
           </span>}
       >
-        <span to="/" className="link disabled resource-item">
-          Statement of Faith <small>(coming soon)</small>
-        </span>
-        <span to="/" className="link disabled resource-item">
-          Enrollment <small>(coming soon)</small>
-        </span>
+        <a href="/StatementOfFaith.pdf" target="_blank" rel="noreferrer noopener" className="link resource-link">
+          Statement of Faith
+        </a>
         <a href="/UniversityModelSchool.pdf" target="_blank" rel="noreferrer noopener" className="link resource-link">
           What is a University Model School?
         </a>
         <a href="/FAQs.pdf" target="_blank" rel="noreferrer noopener" className="link resource-link">
           FAQs
         </a>
+        <span to="/" className="link disabled resource-item">
+          Enrollment <small>(coming soon)</small>
+        </span>
       </Dropdown>
       <Link to="/contactUs" className="contact-link">
         Contact Us
